@@ -134,6 +134,8 @@ print(data)
 print("Classified tagged format of unseen sentence: ", maxent_tagger.tag(data))
 #print("Accuracy of the POS tagging: ", 100*(maxent_tagger.evaluate([maxent_tagger.tag(data)])),"%")
 '''
+inputs:
+
 আমি তোমায় ভালোবাসি |
 আমার সোনার বাংলা , আমি তোমায় ভালোবাসি |
 সততা একটি মহৎ গুণ |
